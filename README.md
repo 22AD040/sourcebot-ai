@@ -163,10 +163,9 @@ sourcebot-ai
 │   └── sidebar_history.png
 │
 ├── demo
-│   └── demo.gif
-│
-└── data
-    └── users.db
+    └── demo.gif
+
+
 ```
 
 ---
