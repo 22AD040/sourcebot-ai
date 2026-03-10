@@ -1,14 +1,14 @@
-from passlib.hash import bcrypt
+from passlib.context import CryptContext
+
+pwd_context = CryptContext(
+    schemes=["bcrypt"],
+    deprecated="auto"
+)
 
 def hash_password(password):
-
     password = str(password)[:72]
-
-    return bcrypt.hash(password)
-
+    return pwd_context.hash(password)
 
 def verify_password(password, hashed):
-
     password = str(password)[:72]
-
-    return bcrypt.verify(password, hashed)
+    return pwd_context.verify(password, hashed)
