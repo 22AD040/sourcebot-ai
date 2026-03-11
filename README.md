@@ -16,6 +16,10 @@ This project demonstrates **real-world Generative AI application architecture**,
 
 # 🎥 Live Demo
 
+🚀 Try the live application here:
+
+🔗 https://sourcebot-ai-7bf9ue4hetzpbnwbrehtgw.streamlit.app/
+
 ![SOURCEBOT AI Demo](demo/demo.gif)
 
 The demo shows:
@@ -26,6 +30,7 @@ The demo shows:
 - Sidebar conversation retrieval
 
 ---
+
 
 # 🚀 Features
 
@@ -69,6 +74,28 @@ The demo shows:
 | **HTML/CSS** | UI styling |
 
 ---
+
+# 📊 Project Management (Jira)
+
+The development workflow for **SOURCEBOT AI** was managed using an **Agile Kanban board in Jira**.
+
+All development tasks were tracked from design to deployment, including:
+
+- Chatbot UI design
+- User authentication system
+- Groq LLM API integration
+- Chat history database implementation
+- UI improvements
+- Error handling
+- Chatbot response testing
+- Streamlit deployment
+
+The Jira board demonstrates the **complete software development lifecycle**, moving tasks through stages:
+
+Jira Board:
+https://genai-project.atlassian.net/jira/software/projects/KAN/boards/2
+
+```
 
 # 🧠 System Architecture
 
